@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "documentRoots": ["private/notes", "private/memory"],
+  "skillRoots": ["skills"],
+  "maxFileBytes": 256000,
+  "maxSourceBytes": 32000000
+}

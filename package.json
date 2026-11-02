@@ -1,0 +1,19 @@
+{
+  "name": "private-ai-workbench",
+  "version": "0.1.0",
+  "description": "A portable, local-first workbench for AI assistants: knowledge search, Skills, local data and project folders.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "wubinKKK",
+  "repository": { "type": "git", "url": "https://github.com/wubinKKK/private-ai-workbench.git" },
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/cli.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node tools/check-release.mjs",
+    "release": "node tools/build-release.mjs",
+    "setup:data": "node tools/setup-data.mjs"
+  },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.32.2", "minisearch": "7.2.0" }
+}

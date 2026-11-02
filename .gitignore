@@ -1,0 +1,17 @@
+node_modules/
+runtime/
+private/
+dist/
+workbench.local.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+cookies*
+credentials*
+__pycache__/
+.venv/
+.DS_Store
+Thumbs.db

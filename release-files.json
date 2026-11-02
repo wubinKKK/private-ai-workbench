@@ -1,0 +1,4 @@
+{
+  "files": ["package.json", "package-lock.json", "requirements.txt", "workbench.example.json", "release-files.json", "README.md", "LICENSE", "CHANGELOG.md", "AGENTS.md", "SECURITY.md", "THIRD_PARTY_NOTICES.md", ".gitignore", ".gitattributes"],
+  "directories": ["src", "skills", "docs", "examples", "tools", "tests", ".github/workflows"]
+}
